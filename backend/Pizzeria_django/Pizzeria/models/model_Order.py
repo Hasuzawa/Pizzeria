@@ -4,4 +4,4 @@ from django.db.models import Model, CharField, IntegerField
 
 class Order(Model):
     #id
-    name = CharField(max_length=127)
+    name = CharField(max_length=127, default="")

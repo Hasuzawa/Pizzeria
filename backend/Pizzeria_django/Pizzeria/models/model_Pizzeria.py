@@ -4,5 +4,4 @@ from django.db.models import Model, CharField, IntegerField
 # Create your models here.
 class Pizzeria(Model):
     #id
-    name = CharField(max_length=127)
-    
+    name = CharField(max_length=127, default="")
